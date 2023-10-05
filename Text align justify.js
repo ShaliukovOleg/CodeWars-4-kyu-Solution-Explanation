@@ -31,7 +31,7 @@ function justify(text, width) {
         }
 
         if (i === words.length - 1 && line.length > 0) {
-            result += line.join(' '); // Добавляем последнюю сформированную строку (без перевода строки)
+            result += line.join(' '); // Добавляем последнюю сформированную строку
         }
 
         return result; // Возвращаем аккумулированный результат для reduce
